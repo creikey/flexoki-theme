@@ -1,0 +1,21 @@
+{
+  "name": "flexoki-theme",
+  "displayName": "Flexoki Theme",
+  "description": "A vscode color theme for the excellent https://stephango.com/flexoki",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flexoki",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Flexoki-color-theme.json"
+      }
+    ]
+  }
+}
